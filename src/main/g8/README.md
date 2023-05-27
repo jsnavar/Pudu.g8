@@ -1,4 +1,4 @@
-## sbt project compiled with Scala 3
+## sbt project for pudu projects
 
 ### Usage
 

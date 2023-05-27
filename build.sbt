@@ -5,7 +5,7 @@ lazy val scalaVersions = Seq("2.12.17")
 lazy val root = project
   .in(file("."))
   .settings(
-    name := "scala3-template",
+    name := "pudu-template",
     Test / test := {
       val _ = (Test / g8Test).toTask("").value
     },
